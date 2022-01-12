@@ -1,0 +1,172 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --txt-color: rgb(80 80 80);
+    --p-color: rgb(99, 99, 99);
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.sliding-sec {
+    padding: 12rem 10rem 0 10rem;
+    margin-bottom: 4rem;
+}
+
+.sec-title {
+    margin-left: 8%;
+    margin-bottom: 4rem;
+}
+
+.sec-title h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.sec-title h3 {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+}
+
+.slider-option {
+    position: relative;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.holder-div {
+    width: 60%;
+    height: 50rem;
+}
+
+.serial-count {
+    width: 30%;
+}
+
+.image-holder {
+    height: 88%;
+    overflow: hidden;
+}
+
+.image-holder img {
+    height: auto;
+    width: 100%;
+}
+
+.title-holder {
+    height: 12%;
+    max-width: 85rem;
+}
+
+.image-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6rem;
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: rgb(23, 23, 141);
+    color: #fff;
+}
+
+.image-title h4,
+.image-title i {
+    font-size: 2rem;
+}
+
+.image-title i {
+    margin-left: 5rem;
+    cursor: pointer;
+}
+
+.count {
+    margin-bottom: 1rem;
+}
+
+.count span {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgb(186 186 186);
+}
+
+.count span:nth-child(1) {
+    margin-right: 2rem;
+}
+
+
+/* content option */
+
+.image-slider-content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 85%;
+    width: 44%;
+    background-color: #f2f2f2;
+    padding: 4rem 1rem 2rem 5rem;
+    z-index: 5;
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+}
+
+.selection .single-line {
+    height: 2px;
+    width: 40px;
+    background: black;
+}
+
+.selection span {
+    font-size: 1.4rem;
+    color: var(--txt-color);
+}
+
+.selection .serial {
+    margin: 0 2rem;
+}
+
+.slider-title {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    color: var(--txt-color);
+}
+
+.cont-caption {
+    margin-bottom: 1rem;
+}
+
+.cont-caption h4 {
+    font-size: 1.6rem;
+    color: var(--txt-color);
+}
+
+.slider-main-content {
+    color: var(--p-color);
+    line-height: 3rem;
+}
+
+.bolder {
+    color: black !important;
+}
