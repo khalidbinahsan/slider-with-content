@@ -170,3 +170,7 @@ p {
 .bolder {
     color: black !important;
 }
+
+.red {
+    color: red;
+}

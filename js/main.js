@@ -1,31 +1,15 @@
-// js script
-const slider1 = document.querySelector('.active .carousel-opt1');
-const slider2 = document.querySelector('.owl-item .carousel-opt2');
-const slider3 = document.querySelector('.owl-item .carousel-opt3');
-const count1 = document.querySelector('.count1');
-const next_btn = document.querySelector('.next-btn');
-const addcls = () => {
-
-}
-
-function counter() {
-    if (slider1) {
-        count1.classList.add('bolder');
-    }
-}
-counter();
-
-
-
-// Owl carousel install...
 $(document).ready(function() {
+    // Owl carousel install...
     var owl = $('.owl-carousel');
     owl.owlCarousel({
         items: 1,
         autoplay: true,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 6000,
         autoplayHoverPause: true,
         loop: true,
+        lazyLoad: true,
+        navigation: true,
+        smartSpeed: 1000
 
     });
     $('.next-btn').click(function() {
